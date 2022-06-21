@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form
+, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: ''; 
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+body {
+	line-height: 1;
+	background-color: rgb(170 66 37);
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+header {
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+.logo img {
+	width: 40%;
+}
+.slogan {
+	font-size: 40px;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.slogan p {
+	float: right;
+	margin-right: 40px;
+}
+
+
+
+nav {/*
+	background-color: #f8f9fd;
+	display: flex;*/
+}
+nav .TopNav {
+	width: 15%;
+}
+nav .navbarNavAltMarkup{
+  width: 85%;
+  display: inline-flex;
+}
+nav .Les3boutons {
+  margin: 0;
+  overflow: hidden;
+  padding-left: 25%;
+}
+nav .Les3boutons a {
+  width: 10%;
+  color: #a9aaac;
+}
+nav .TroisièmeBouton{
+	margin-right: 50%;
+}
+nav button {
+	margin: 0 15px 0 15px;
+}
+
+
+
+.BandePromotions {
+	background-color: #FFFFFF;
+}
+.BandePromotions img {
+	width: 100%;
+}
+
+
+
+.corps {
+	display: flex;
+	width: 100%;
+}
+.corps h4 {
+	font-size: xx-large;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+}
+.corps h6 {
+	padding: 10px 0 10px 0;
+}
+.col {
+	flex: 1;
+}
+.zonedetexte {
+	background-color: #FFFFFF;
+}
+.colonnededroite {
+	background-color: #fec107;
+	text-align: center;
+}
+
+
+
+table {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ background-color: #FFFFFF;
+ text-align: center;
+ float: left;
+ height: 500px;
+ }
+caption {
+	background-color: #FFFFFF;
+	border: 1px solid black;
+}
+th {
+	border: 1px solid black;
+}
+.colonne1 {
+	width: 25%;
+}
+.colonne2 {
+	width: 10%;
+}
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:red;
+ }
+.photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+form {
+	background-color: #FFFFFF;
+}
+form h2{
+	font-size: xx-large;
+	font-weight: bold;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+
+
+footer {
+	background-color: #000000;
+  display: block;
+	padding: 15px 15px;
+}
+footer a {
+  color: #a9aaac;
+  margin: 15px 15px 15px 15px;;
+}
